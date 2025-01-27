@@ -26,21 +26,19 @@
     <style>
         body {
             margin: 0;
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
         }
+
+        /* Header styles */
         .header {
-            background-color: #fff;
-            padding: 10px 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            transition: background 0.3s, box-shadow 0.3s;
         }
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
-        .logo img {
-            height: 40px; /* Adjust as needed */
-            margin-right: 10px;
+            padding: 10px 20px;
         }
         .nav-links {
             list-style: none;
@@ -55,6 +53,8 @@
             text-decoration: none;
             color: #333;
         }
+
+        /* Hero Section styles */
         .hero {
             position: relative;
             overflow: hidden;
@@ -62,7 +62,7 @@
         .hero-video {
             width: 100%;
             height: auto;
-            min-height: 300px; /* Ensures a minimum height */
+            min-height: 300px; /* Minimum height for video */
         }
         .hero-overlay {
             position: absolute;
@@ -105,11 +105,11 @@
                 font-size: 1em; /* Smaller subtitle for mobile */
             }
             .nav-links {
-                flex-direction: column;
+                flex-direction: column; /* Stack links for mobile */
             }
             .nav-links li {
                 margin-left: 0;
-                margin-top: 10px;
+                margin-top: 10px; /* Space above links */
             }
         }
     </style>
@@ -144,8 +144,6 @@
             <a href="#future" class="cta-button">See More</a>
         </div>
     </section>
-</body>
-</html>
 
     <!-- External Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -178,9 +176,8 @@
             }
         });
     </script>
-
-    </style>
-    </head>
+</body>
+</html>
 
 
 </html>
@@ -214,13 +211,6 @@
         </div>
     </div>
     
-    
-    
-
-
-
-
-
 
     <!DOCTYPE html>
     <html lang="en">
@@ -350,6 +340,7 @@
             .active-dot {
                 background-color: white; /* Active dot color */
             }
+            
         </style>
     </head>
     <body>
@@ -543,6 +534,7 @@
         </style>
     </head>
     <body>
+        <h3>Shop Now</h3>
         <section class="image-grid">
             <a href="virtualtour.html"><img src="cattle1.jpg" alt="Image 1"><div class="link-text">Cattle</div></a>
             <a href="chickens.html"><img src="chicken1.jpg" alt="Image 2"><div class="link-text"> Chicken</div></a>
@@ -555,9 +547,6 @@
         </section>
     </body>
     </html>
-
-
-    
 
 
             <!DOCTYPE html>
